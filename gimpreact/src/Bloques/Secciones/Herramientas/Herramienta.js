@@ -1,8 +1,6 @@
+import mover from './Funciones/funciones'
 import './Herramienta.css';
 
-function mover(){
-    alert("Has hecho click en mover")
-}
 function seleccion(){
     alert("Has hecho click en seleccion")
 }
