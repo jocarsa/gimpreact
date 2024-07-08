@@ -6,15 +6,9 @@ main{
 	align-items: stretch;
 	align-content: stretch;
 }
-main #herramientas{
-    width:20%;
-}
-main #dibujo{
-    width:60%;
-}
-main #parametros{
-    width:20%;
-}
+
+
+
 main #herramientas button{
     width:30px;
     height:30px;

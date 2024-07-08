@@ -1,28 +1,13 @@
 import './Principal.css';
+import Herramientas from './Secciones/Herramientas'
+import Dibujo from './Secciones/Dibujo'
+import Parametros from './Secciones/Parametros'
 function Principal() {
   return (
         <main>  
-            <section id="herramientas">
-                Herramientas<hr/>
-                <button>Mover</button>
-                <button>Seleccion</button>
-                <button>Lazo</button>
-                <button>Varita</button>
-                <button>Mover</button>
-                <button>Seleccion</button>
-                <button>Lazo</button>
-                <button>Varita</button>
-                <button>Mover</button>
-                <button>Seleccion</button>
-                <button>Lazo</button>
-                <button>Varita</button>
-            </section>
-            <section id="dibujo">
-                Dibujo
-            </section>
-            <section id="parametros">
-                Parametros
-            </section>
+            <Herramientas />
+            <Dibujo />
+            <Parametros />
         </main>
   );
 }
