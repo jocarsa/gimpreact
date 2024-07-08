@@ -1,34 +1,4 @@
 .App {
   text-align: center;
 }
-header nav ul{
-    padding:0px;
-    margin:0px;
-    list-style-type: none;
-}
-header nav ul li{
-    display:inline-block;
-    margin:10px;
-}
-main{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-	align-items: stretch;
-	align-content: stretch;
-}
-main #herramientas{
-    width:20%;
-}
-main #dibujo{
-    width:60%;
-}
-main #parametros{
-    width:20%;
-}
-main #herramientas button{
-    width:30px;
-    height:30px;
-    margin:2px;
-}
+
