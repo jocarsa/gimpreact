@@ -1,20 +1,21 @@
 import './Herramientas.css';
+import Herramienta from './Herramientas/Herramienta'
 function Herramientas() {
   return ( 
         <section id="herramientas">
-            Herramientas<hr/>
-            <button>Mover</button>
-            <button>Seleccion</button>
-            <button>Lazo</button>
-            <button>Varita</button>
-            <button>Mover</button>
-            <button>Seleccion</button>
-            <button>Lazo</button>
-            <button>Varita</button>
-            <button>Mover</button>
-            <button>Seleccion</button>
-            <button>Lazo</button>
-            <button>Varita</button>
+            <Herramienta/>
+            <Herramienta/>
+              <Herramienta/>
+              <Herramienta/>
+              <Herramienta/>
+              <Herramienta/>
+              <Herramienta/>
+              <Herramienta/>
+              <Herramienta/>
+              <Herramienta/>
+              <Herramienta/>
+              <Herramienta/>
+              <Herramienta/>
         </section>    
   );
 }
