@@ -2,7 +2,8 @@ import './Herramientas.css';
 import Herramienta from './Herramientas/Herramienta'
 function Herramientas() {
     function clickVentana(){
-        alert("Has hecho click en la ventana de herramientas")
+        
+        alert("Has hecho click en la ventana de herramientas 2")
     }
   return ( 
         <section id="herramientas" onClick={clickVentana}>

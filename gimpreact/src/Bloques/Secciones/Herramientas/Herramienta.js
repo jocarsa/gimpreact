@@ -12,7 +12,8 @@ function varita(){
 }
 
 function Herramienta({accion,children}) {
-    function hazClick(){
+    function hazClick(e){
+        e.stopPropagation();
         switch(accion){
             case "Mover":       mover();break;
             case "Seleccion":   seleccion();break;
