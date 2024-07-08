@@ -16,7 +16,19 @@ function App() {
         </header>
         <main>  
             <section id="herramientas">
-                Herramientas
+                Herramientas<hr/>
+                <button>Mover</button>
+                <button>Seleccion</button>
+                  <button>Lazo</button>
+                  <button>Varita</button>
+      <button>Mover</button>
+                <button>Seleccion</button>
+                  <button>Lazo</button>
+                  <button>Varita</button>
+      <button>Mover</button>
+                <button>Seleccion</button>
+                  <button>Lazo</button>
+                  <button>Varita</button>
             </section>
             <section id="dibujo">
                 Dibujo
