@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import Cabecera from './Cabecera';
-import Principal from './Principal';
+import Cabecera from './Bloques/Cabecera';
+import Principal from './Bloques/Principal';
 
 function App() {
   return (
